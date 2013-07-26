@@ -1,7 +1,7 @@
 xbox360_rf
 ==========
 
-Python Library for communicating with the Xbox 360 RF Module
+Python Library for the Xbox 360 RF Module
 ------------------------------------------------------------
 
 this Library allows you to control your Xbox 360 RF Module
