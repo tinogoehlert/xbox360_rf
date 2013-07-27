@@ -7,10 +7,10 @@
 # 
 # www.astrorats.org | @_tin0_
 
-import xbox_rf.py
+import xbox_rf
 
 # Initialize wiringPi and start
 # Boot secuence.
 print("initializing..")
-xbrf.Init()
+xbox_rf.Init()
 print("done")
