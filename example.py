@@ -7,7 +7,7 @@
 # 
 # www.astrorats.org | @_tin0_
 
-import xbrf
+import xbox_rf.py
 
 # Initialize wiringPi and start
 # Boot secuence.
