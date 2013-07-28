@@ -85,8 +85,13 @@ def Init():
 	
 	SendData(cmdlist["led_cmd"])
 	wiringpi2.delay(50)
+
+# BootAnimation
+#    Plays Xbox 360 Boot Animation
+def BootAnimation():
 	SendData(cmdlist["anim_cmd"])
-	wiringpi2.delay(7000)
+        wiringpi2.delay(7000)
+
 
 # SendCommand
 #   sends a command according to its name

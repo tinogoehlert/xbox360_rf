@@ -13,6 +13,7 @@ import xbox_rf
 # Boot secuence.
 print("initializing..")
 xbox_rf.Init()
+xbox_rf.BootAnimation()
 print("done")
 
 # Switch Green Edge LEDs on and off
@@ -56,3 +57,4 @@ xbox_rf.SendData("0010100001",150)
 xbox_rf.SendData("0010100000",150)
 print("done")
 
+xbox_rf.SendData("0010110000",150)
